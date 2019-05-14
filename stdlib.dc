@@ -1,0 +1,8 @@
+# $s = sum($a)
+[c 0ss [zsp La zlp!=x]sx [dls+ss Sa z0<y]sy lxx z0<y]sS # Clear $, set $s=0, load $a into $, sum $ and store in $s
+
+# $l = len($a)
+[c [zsp La zlp!=x]sx [Sa z0<y]sy lxx zsl z0<y]sL # Clear $, load $a into $, set $l=len($), load $ into $a
+
+# print avg($a)
+[lSx lLx ls ll / 4k p]sA
